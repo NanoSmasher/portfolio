@@ -24,13 +24,13 @@ logo:
 # Main Banner
 main-image: img/face.png
 main-name: HENRY LU
-main-desc: Materials Engineering Graduate. Analytical and organized with an appetite for learning. Open communication is my key to sucess.
+main-desc: Materials Engineering Graduate. Analytical and organized with an appetite for learning. Open communication is my key to success.
 
-# Feature Notes, constrainted to three items
+# Feature Notes, constrained to three items
 feature:
   one-icon: lnr-graduation-hat
-  one-title: Appitite for learning
-  one-content: Whether is programming, material transformations, or competitve gaming, I'm fanatically curious looking at topics from a top-down and bottom-up approach.
+  one-title: Appetite for learning
+  one-content: Whether is programming, material transformations, or competitive gaming, I'm fanatically curious looking at topics from a top-down and bottom-up approach.
   two-icon: lnr-code
   two-title: Organized
   two-content: Planning ahead, tagging and categorizing notes, and keeping coding/documents modular. When programming or writing technical reports, I make sure future me can understand me, as well as other people.
