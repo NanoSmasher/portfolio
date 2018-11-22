@@ -1,0 +1,33 @@
+<section id="skills" class="amazing-works-area">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<h3>Skill Highlights</h3>
+				</div>
+				<div id="accordion">
+				  {% for skill in site.skills %}
+				  <div class="card">
+					<div class="card-header" id="h{{skill.name | slugify }}">
+					  <h5 class="mb-0">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#c{{skill.name | slugify }}" aria-expanded="true" aria-controls="c{{skill.name | slugify }}">
+						  {{skill.name}}
+						</button>
+					  </h5>
+					</div>
+					<div id="c{{skill.name | slugify }}" class="collapse {% if forloop.first == true %}show{% else %}hide{% endif %}" aria-labelledby="h{{skill.name | slugify }}" data-parent="#accordion">
+					  <div class="card-body">
+						<ul>
+					    {% for post in site.tags[{{skill.name}}] %}
+							<li><a href="#m{{ post.date | date: '%y%m%d' }}" data-toggle="modal">{{ post.title }} ⇒ <b>View Details</b></a></li>
+						{% endfor %}
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				  {% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

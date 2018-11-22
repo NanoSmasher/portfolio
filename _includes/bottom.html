@@ -1,0 +1,50 @@
+<section class="footer-widget-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				{% if site.address %}
+				<div class="single-widget d-flex flex-wrap justify-content-between">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="lnr lnr-pushpin"></span>
+					</div>
+					<div class="desc">
+						<h6 class="title text-uppercase">Address</h6>
+						<p>{{ site.address }}</p>
+					</div>
+				</div>
+				{% endif %}
+			</div>
+			<div class="col-md-4">
+				{% if site.email %}
+				<div class="single-widget d-flex flex-wrap justify-content-between">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="lnr lnr-earth"></span>
+					</div>
+					<div class="desc">
+						<h6 class="title text-uppercase">Email Address</h6>
+						<div class="contact">
+							{% assign email = site.email | split: '@' %}
+							<a href="mailto:{{ site.email }}">{{ email[0] }}</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+			</div>
+			<div class="col-md-4">
+				{% if site.phone %}
+				<div class="single-widget d-flex flex-wrap justify-content-between">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="lnr lnr-phone"></span>
+					</div>
+					<div class="desc">
+						<h6 class="title text-uppercase">Phone Number</h6>
+						<div class="contact">
+							<a href="tel:{{ site.phone }}">{{ site.phone }}</a> <br>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</section>

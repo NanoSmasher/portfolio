@@ -1,0 +1,41 @@
+/*	##################################################################################################
+   	###                                          MODALS                                            ###
+   	################################################################################################## */
+
+.single-service > .thumb > span {
+	position: absolute;
+	left: -1.2rem;
+	top: -1.2rem;
+	font-size: 3rem;
+	color: yellow;
+}
+
+.single-service .thumb .overlay-content, .single-service .thumb {
+	border-radius: 10px;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body  .main-wrapper-first img {
+	max-height: 320px;
+	border-radius: 40px;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body ul, .project-modal .modal-dialog .modal-content .modal-body ol {
+	margin: 20px;
+	list-style-type: disc;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body a {
+	color: #0056b3;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body strong {
+	font-weight: bold;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body figure {
+	background-color: whitesmoke;
+}
+
+.project-modal .modal-dialog .modal-content .modal-body .carousel-item {
+	height: 350px;
+}

@@ -1,0 +1,11 @@
+{% assign total = 0 %}
+  {% for post in site.tags[{{skill.name}}] %}
+	{% if post.end != '' %}
+	  {% assign s = post.start | date: '%s' %}
+	  {% assign e = post.end | date: '%s' %}
+	  {% assign timediffseconds = e | minus: s | plus: 2678400 %}
+	  {% assign months = timediffseconds | divided_by: 60 | divided_by: 60 | divided_by: 24 | divided_by: 31 %}
+	  {% assign total = total | plus: months %}
+	{% endif %}
+  {% endfor %}
+{{total}}

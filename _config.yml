@@ -1,0 +1,65 @@
+# Jekyll Build settings
+baseurl: /portfolio
+permalink: /project/:title/
+relative_permalinks: false
+markdown: kramdown
+excerpt_separator: <!-- more -->
+include: ['img','fonts','js','css']
+exclude: ['README.md','pages','Gemfile','Gemfile.lock','.git','.gitignore']
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# SEO / Basic Settings
+title: Henry Lu's Portfolio
+description: > # ignore newlines
+  A portfolio outlining the projects I have done from the past few years as materials engineering student from the University of Toronto.
+icon: 
+author: Henry Lu
+keywords: ['Portfolio', 'Henry Lu', 'Materials', 'Science', 'Engineering', 'Programming']
+
+# Header Logo
+logo:
+
+# Main Banner
+main-image: img/face.png
+main-name: HENRY LU
+main-desc: Materials Engineering Graduate. Analytical and organized with an appetite for learning. Open communication is my key to sucess.
+
+# Feature Notes, constrainted to three items
+feature:
+  one-icon: lnr-graduation-hat
+  one-title: Appitite for learning
+  one-content: Whether is programming, material transformations, or competitve gaming, I'm fanatically curious looking at topics from a top-down and bottom-up approach.
+  two-icon: lnr-code
+  two-title: Organized
+  two-content: Planning ahead, tagging and categorizing notes, and keeping coding/documents modular. When programming or writing technical reports, I make sure future me can understand me, as well as other people.
+  thr-icon: lnr-hand
+  thr-title: Collaboration
+  thr-content: At University of Toronto I worked with other engineering students, professors, and people in the industry. Multidisciplinary work lead me to collaborate and articulate ideas to a diverse audience.
+
+# Skills, list each skill you want to highlight
+skills:
+- name: Project Management
+  color: primary
+- name: Leadership
+  color: secondary
+- name: Communication
+  color: info
+- name: Product Development
+  color: success
+- name: Programming
+  color: warning
+- name: Teamwork
+  color: default
+ 
+# Bottom page contact info
+address: >
+ Brampton,
+ ON Canada
+email: 6276846+NanoSmasher@users.noreply.github.com
+phone: On Resume
+facebook_url: # add url link
+twitter_url: # add url link
+github_url: Nanosmasher # add url link
+linkedin_url: henry-lu-mse # add url link
