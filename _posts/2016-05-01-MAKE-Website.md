@@ -15,9 +15,9 @@ A website to display:
 
 * club executives  
 * sponsors, sponsor logos, and redirect to sponsor page
-* event list and signup list for new members
+* event list and sign up list for new members
 
 Visit the current website at [make.skule.ca](https://make.skule.ca)
 
 
-Source code for the project is available on github: [https://github.com/NanoSmasher/make.skule.ca](https://github.com/NanoSmasher/make.skule.ca)
+Source code for the project is available on GitHub: [https://github.com/NanoSmasher/make.skule.ca](https://github.com/NanoSmasher/make.skule.ca)

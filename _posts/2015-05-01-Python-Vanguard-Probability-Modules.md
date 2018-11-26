@@ -7,7 +7,7 @@ end: May 2015
 tags: ['Communication','Programming']
 ---
 
-Caluation scripts from principles of probability and game theory.
+Evaluation scripts from principles of probability and game theory.
 
 <!-- more -->
 

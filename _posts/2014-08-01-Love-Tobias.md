@@ -5,7 +5,7 @@ end: September 2014
 tags: ['Programming']
 ---
 
-Asynchronious music manager for LOVE2D
+Asynchronous music manager for LOVE2D
 
 <!-- more -->
 

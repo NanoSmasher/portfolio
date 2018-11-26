@@ -17,6 +17,6 @@ Groups of 3-4 students were selected to perform a materials selection project fo
 
 #### Approach
 
-A design card was put together evaluating the function of a smartphone frame, and developing constraints and objectives mainly based on empirical new reports (Most phone companies perform their own testing instead of using military/international engineering standards). From there, materials indexes where calculated with a strength and stiffness constraint, and screened through a variety of parameters. These parameters were fed into CES Edupack to obtain a shortlist of viable candidates. Feasability analysis of manufacturing and costs were developed to obtain a ranked list.
+A design card was put together evaluating the function of a smartphone frame, and developing constraints and objectives mainly based on empirical new reports (Most phone companies perform their own testing instead of using military/international engineering standards). From there, materials indexes where calculated with a strength and stiffness constraint, and screened through a variety of parameters. These parameters were fed into CES Edupack to obtain a shortlist of viable candidates. Feasibility analysis of manufacturing and costs were developed to obtain a ranked list.
 
 An environmental analysis was also completed through CES Edupack, however the results were not factored into the final decision. 

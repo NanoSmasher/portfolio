@@ -14,7 +14,7 @@ Raspberry Pi News Ticker
 
 #### Project Aim
 
-In the last few years, e-mails and word of mouth were the primary methods used to promote events to other students in the MSE discipline. To increase communication of upcoming events different types of media were established including Snapchat, the MSE club website, and Instagram. However it was noted that many students come to the common room during lunch hours, providing another outlet for advertising events. The TV set placed in the room had been underultilized by students, so the suggestion was put forth to convert the TV into a bulletin board.
+In the last few years, e-mails and word of mouth were the primary methods used to promote events to other students in the MSE discipline. To increase communication of upcoming events different types of media were established including Snapchat, the MSE club website, and Instagram. However it was noted that many students come to the common room during lunch hours, providing another outlet for advertising events. The TV set placed in the room had been underutilized by students, so the suggestion was put forth to convert the TV into a bulletin board.
 
 #### Approach
 
@@ -32,7 +32,7 @@ feh -Y -x -q -R 7 -D 7 -B black -F -Z --r /media/
 
 A surprising detail not mentioned much in the Raspberry Pi OS is that it automatically dims the screen after a certain period of time. Even worse, there is no built in method to disable this feature. Ironically the solution was to install a custom screensaver, **xscreensaver**, and use it's program to disable the screensaver.
 
-The wifi-adapter was set up as an ad-hoc server due to the abscene of a router. A DHCP server program did most of the heavy lifting, however some custom firmware for the usb was necessary. If both setups fail (such as the usb dongle not inserted properly or not recieveing enough power), it would defeault to displaying a slideshow. After a lot of troubleshooting, the Pi had to be downgraded to Debian Squeeze in order for everything to function smoothly.
+The wifi-adapter was set up as an ad-hoc server due to the absence of a router. A DHCP server program did most of the heavy lifting, however some custom firmware for the usb was necessary. If both setups fail (such as the usb dongle not inserted properly or not receiving enough power), it would default  to displaying a slideshow. After a lot of troubleshooting, the Pi had to be downgraded to Debian Squeeze in order for everything to function smoothly.
 
 For streaming twitch videos and other streaming services, [**streamlink**](https://github.com/streamlink/streamlink) and omxplayer were used. Streamlink is a continuation of the now abandoned livestreamer project, that supports streaming of Twitch videos to a custom video player built to efficiency use the Raspberry Pi's graphics processor. (Applications like VLC were too slow and stuttered frequently, making it less than ideal). Unfortunately, streaming videos had to be started and stopped via the command line
 

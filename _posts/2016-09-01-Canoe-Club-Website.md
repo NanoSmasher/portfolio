@@ -25,9 +25,9 @@ Website for delivering:
 
 After meetings with the project manager and previous website maintainer, Jekyll was chosen for the following reasons:
 
-* Sucessful implementation of Jekyll with other clubs using the \*.skule.ca domain
+* Successful implementation of Jekyll with other clubs using the \*.skule.ca domain
 * Static website minimizes complexity when transitioning between club webmasters
-* The club does not have a large amount of data to serve, models and other administrative information is handled seperately.
+* The club does not have a large amount of data to serve, models and other administrative information is handled separately.
 
 #### Results
 

@@ -24,4 +24,4 @@ The website was turned over to a new developer on September 2018.
 
 visit the current website at [smash.skule.ca](https://smash.skule.ca)
 
-Source code for the project is available on github: [https://github.com/NanoSmasher/smash.skule.ca](https://github.com/NanoSmasher/smash.skule.ca)
+Source code for the project is available on GitHub: [https://github.com/NanoSmasher/smash.skule.ca](https://github.com/NanoSmasher/smash.skule.ca)
