@@ -20,7 +20,12 @@
 				  <div class="carousel-inner" style="height: 325px !important;">
 				    {% for i in post.img %}
 					<div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-					  <img class="d-block w-100" src="{{site.baseurl}}/img/{{ i }}" alt="{{ i }}">
+					
+					
+					<!--<img class="d-block w-100" src="{{site.baseurl}}/img/{{ i }}" alt="{{ i }}">-->
+						<img class="d-block w-100 lazy" alt="{{ i }}" data-src="{{site.baseurl}}/img/{{ i }}">
+					  
+					  
 					  <div class="carousel-caption" style="background:rgba(0,0,0,0.5);">
 						{% if post.img.size == post.caption.size %}{{ post.caption[forloop.index0]}}{% endif %}
 					  </div>

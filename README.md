@@ -32,6 +32,8 @@ For non-commercial purposes, as per the license of ColorLib Dinomuz states, the 
 ## Misc. Credits
 
 * [Determining difference between two dates](https://stackoverflow.com/a/42957288)
+* [WebP generation from Google Dev](https://developers.google.com/speed/webp/docs/precompiled)
+* [Image compression](https://tinyjpg.com)
 
 ## License
 

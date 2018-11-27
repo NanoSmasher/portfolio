@@ -1,3 +1,24 @@
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy",
+	to_webp: true
+});
+
+var modalLazyLoad;
+$('.modal')
+	.on('shown.bs.modal', function () {
+		modalLazyLoad = new LazyLoad({
+			container: this,
+			elements_selector: ".lazy",
+			to_webp: true
+		});
+		modalLazyLoad.update();
+	})
+	.on('slid.bs.carousel', function () {
+		modalLazyLoad.update();
+	})
+	.on('hidden.bs.modal', function () {
+		modalLazyLoad.destroy();
+	});
 
 $(document).ready(function(){
 	"use strict";
