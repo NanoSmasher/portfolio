@@ -1,25 +1,3 @@
-var myLazyLoad = new LazyLoad({
-    elements_selector: ".lazy",
-	to_webp: true
-});
-
-var modalLazyLoad;
-$('.modal')
-	.on('shown.bs.modal', function () {
-		modalLazyLoad = new LazyLoad({
-			container: this,
-			elements_selector: ".lazy",
-			to_webp: true
-		});
-		modalLazyLoad.update();
-	})
-	.on('slid.bs.carousel', function () {
-		modalLazyLoad.update();
-	})
-	.on('hidden.bs.modal', function () {
-		modalLazyLoad.destroy();
-	});
-
 $(document).ready(function(){
 	"use strict";
 
@@ -29,10 +7,31 @@ $(document).ready(function(){
 	header_height_static = $(".site-header.static").outerHeight(),
 	fitscreen 			 = window_height - header_height;
 
-
-	$(".fullscreen").css("height", window_height)
+	$(".fullscreen").css("height", window_height);
 	$(".fitscreen").css("height", fitscreen);
 
+	 // ----- Lazyload ----- // 
+	var myLazyLoad = new LazyLoad({
+		elements_selector: ".lazy",
+		to_webp: true
+	});
+
+	var modalLazyLoad;
+	$('.modal')
+		.on('shown.bs.modal', function () {
+			modalLazyLoad = new LazyLoad({
+				container: this,
+				elements_selector: ".lazy",
+				to_webp: true
+			});
+			modalLazyLoad.update();
+		})
+		.on('slid.bs.carousel', function () {
+			modalLazyLoad.update();
+		})
+		.on('hidden.bs.modal', function () {
+			modalLazyLoad.destroy();
+		});
      
      // -------   Active Mobile Menu-----//
 
@@ -43,32 +42,33 @@ $(document).ready(function(){
         $(".main-menu").addClass('mobile-menu');
     });
      
-    $('select').niceSelect();
-    $('.img-pop-up').magnificPopup({
-        type: 'image',
-        gallery:{
-        enabled:true
-        }
-    });
-
-    $('.active-works-carousel').owlCarousel({
-        center: true,
-        items:2,
-        loop:true,
-        margin: 100,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            }
-        }
-    });
+    //$('select').niceSelect();
+    //$('.img-pop-up').magnificPopup({
+    //    type: 'image',
+    //    gallery:{
+    //    enabled:true
+    //    }
+    //});
+    //
+    //$('.active-works-carousel').owlCarousel({
+    //    center: true,
+    //    items:2,
+    //    loop:true,
+    //    margin: 100,
+    //    dots: true,
+    //    responsive: {
+    //        0: {
+    //            items: 1
+    //        },
+    //        480: {
+    //            items: 1,
+    //        },
+    //        768: {
+    //            items: 2,
+    //        }
+    //    }
+    //});
+	
     // Add smooth scrolling to Menu links
     $(".main-menu li a, .smooth").on('click', function(event) {
             if (this.hash !== "") {
@@ -83,8 +83,8 @@ $(document).ready(function(){
         } 
     });
 
-    $(document).ready(function() {
-        $('#mc_embed_signup').find('form').ajaxChimp();
-    });      
+    //$(document).ready(function() {
+    //    $('#mc_embed_signup').find('form').ajaxChimp();
+    //});      
 
  });
