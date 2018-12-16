@@ -28,6 +28,7 @@ For non-commercial purposes, as per the license of ColorLib Dinomuz states, the 
 * Background graident can be changed with the $left-color and $right-color variables in **_scss/theme**.
 * **_posts** hold all of the individual portfolio pages. img and tags can be lists or just a simple string. Date format follows Ruby's [time parser](https://ruby-doc.org/stdlib-2.5.1/libdoc/time/rdoc/Time.html#method-c-parse)
 * In the **img** folder, **dinomuz-logo.png** is the only file you should not alter, as well as the images in **img/elements** if you use checkboxes/radio.
+* "above the fold" css is generated using [https://jonassebastianohlsson.com/criticalpathcssgenerator/](https://jonassebastianohlsson.com/criticalpathcssgenerator/)
 
 ## Misc. Credits
 
