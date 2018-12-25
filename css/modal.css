@@ -1,6 +1,4 @@
-/*	##################################################################################################
-   	###                                          MODALS                                            ###
-   	################################################################################################## */
+/*	MODALS	*/
 
 .single-service > .thumb > span {
 	position: absolute;
@@ -25,7 +23,7 @@
 }
 
 .project-modal .modal-dialog .modal-content .modal-body a {
-	color: #0056b3;
+	color: #003C80;
 }
 
 .project-modal .modal-dialog .modal-content .modal-body strong {
@@ -38,4 +36,13 @@
 
 .project-modal .modal-dialog .modal-content .modal-body .carousel-item {
 	height: 350px;
+}
+
+/*	Color contrast Fixes	*/
+h5 > button {
+	color: #004A99 !important;
+}
+
+h5 > button:hover {
+	color: #003C80 !important;
 }

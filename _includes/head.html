@@ -1,9 +1,10 @@
 <head>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="manifest" href="{{ site.baseurl}}/manifest.json">
 	{% if site.icon %} <!-- Favicon-->
 	<link rel="shortcut icon" href="{{ site.icon }}"> {% endif %}
-	<meta name="theme-color" content="#658de6"/>
+	<meta name="theme-color" content="#658DE6"/>
 	<meta name="author" content="{{ site.author }}">
 	<meta name="description" content="{{ site.description }}">
 	<meta name="keywords" content="{{ site.title }}{% for key in site.keywords %}, {{ key }}{% endfor %}">
@@ -11,4 +12,20 @@
 	<!-- Site Title -->
 	<title>{{ site.title }}</title>	
 	<style>{% include abovethefoldcss %}</style>
+	<script>
+	if ('serviceWorker' in navigator) {
+	navigator.serviceWorker
+	         .register('{{ site.baseurl }}/sw.js', {scope: './'})
+			 .then(function(registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);			  
+			  })
+			  .catch(function(err) {
+			    console.log('ServiceWorker registration failed: ', err);
+			  })
+	}
+	</script>
 </head>
+
+
+
+

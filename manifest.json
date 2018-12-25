@@ -1,0 +1,23 @@
+---
+---
+{
+  "short_name": "Henry Lu",
+  "name": "Henry Lu's Portfolio | Nanosmasher",
+  "icons": [
+    {
+      "src": "{{ site.baseurl }}/face-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+	{
+      "src": "{{ site.baseurl }}/face-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "{{ site.baseurl }}/",
+  "background_color": "#658DE6",
+  "display": "standalone",
+  "scope": "{{ site.baseurl }}/",
+  "theme_color": "#658DE6"
+}

@@ -70,18 +70,18 @@ $(document).ready(function(){
     //});
 	
     // Add smooth scrolling to Menu links
-    $(".main-menu li a, .smooth").on('click', function(event) {
-            if (this.hash !== "") {
-              event.preventDefault();
-              var hash = this.hash;
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top - (-10)
-            }, 600, function(){
-             
-                window.location.hash = hash;
-            });
-        } 
-    });
+    //$(".main-menu li a, .smooth").on('click', function(event) {
+    //        if (this.hash !== "") {
+    //          event.preventDefault();
+    //          var hash = this.hash;
+    //          $('html, body').animate({
+    //            scrollTop: $(hash).offset().top - (-10)
+    //        }, 600, function(){
+    //         
+    //            window.location.hash = hash;
+    //        });
+    //    } 
+    //});
 
     //$(document).ready(function() {
     //    $('#mc_embed_signup').find('form').ajaxChimp();

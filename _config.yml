@@ -3,6 +3,8 @@ baseurl: /portfolio
 permalink: /project/:title/
 relative_permalinks: false
 markdown: kramdown
+kramdown:
+  auto_ids: false
 excerpt_separator: <!-- more -->
 include: ['img','fonts','js','css']
 exclude: ['README.md','pages','Gemfile','Gemfile.lock','.git','.gitignore']
@@ -14,7 +16,7 @@ sass:
 title: Henry Lu's Portfolio
 description: > # ignore newlines
   A portfolio outlining the projects I have done from the past few years as materials engineering student from the University of Toronto.
-icon: 
+icon: favicon.ico
 author: Henry Lu
 keywords: ['Portfolio', 'Henry Lu', 'Materials', 'Science', 'Engineering', 'Programming']
 
