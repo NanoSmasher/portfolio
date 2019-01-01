@@ -5,12 +5,12 @@
   "name": "Henry Lu's Portfolio | Nanosmasher",
   "icons": [
     {
-      "src": "{{ site.baseurl }}/face-192.png",
+      "src": "{{ site.baseurl }}/img/face-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
 	{
-      "src": "{{ site.baseurl }}/face-512.png",
+      "src": "{{ site.baseurl }}/img/face-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
