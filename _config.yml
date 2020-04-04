@@ -15,7 +15,7 @@ sass:
 # SEO / Basic Settings
 title: Henry Lu's Portfolio
 description: > # ignore newlines
-  A portfolio outlining the projects I have done from the past few years as materials engineering student from the University of Toronto.
+  A portfolio outlining the projects I have done. Mostly completed during studies in UofT's materials engineering program.
 icon: favicon.ico
 author: Henry Lu
 keywords: ['Portfolio', 'Henry Lu', 'Materials', 'Science', 'Engineering', 'Programming']
@@ -26,7 +26,7 @@ logo:
 # Main Banner
 main-image: img/face.png
 main-name: HENRY LU
-main-desc: Materials Engineering Graduate. Analytical and organized with an appetite for learning. Open communication is my key to success.
+main-desc: UofT Materials Engineering Graduate. Analytical and organized with an appetite for learning. Open communication is my key to success.
 
 # Feature Notes, constrained to three items
 feature:
@@ -38,7 +38,7 @@ feature:
   two-content: Planning ahead, tagging and categorizing notes, and keeping coding/documents modular. When programming or writing technical reports, I make sure future me can understand me, as well as other people.
   thr-icon: lnr-hand
   thr-title: Collaboration
-  thr-content: At the University of Toronto I worked with other engineering students, professors, and people in the industry. Multidisciplinary work lead me to collaborate and articulate ideas to a diverse audience.
+  thr-content: At UofT I worked with other engineering students, professors, and people in the industry. Multidisciplinary work lead me to collaborate and articulate ideas to a diverse audience.
 
 # Skills, list each skill you want to highlight
 skills:
@@ -57,7 +57,7 @@ skills:
  
 # Bottom page contact info
 address: >
- Brampton,
+ Ottawa,
  ON Canada
 email: 6276846+NanoSmasher@users.noreply.github.com
 phone: On Resume
